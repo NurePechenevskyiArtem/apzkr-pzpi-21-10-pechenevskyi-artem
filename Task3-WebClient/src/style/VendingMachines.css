@@ -1,0 +1,19 @@
+.vending-machines-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.vending-machine-card {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vending-machine-card p {
+    margin: 5px 0;
+}
